@@ -169,6 +169,8 @@ const Home = () => {
                                 <p className='text-center font-bold mb-2 text-lg'> Activities and excursions:</p>
                                 <p> Whether you're looking for a relaxing day at the beach or an adrenaline-fueled adventure, we can help you plan the perfect activities and excursions for your trip. From guided tours to cultural experiences, we have a wide range of options to choose from.</p>
                             </div>
+
+                            
                             <div className='border border-blue-600 p-4 rounded-xl m-4 shadow-lg shadow-blue-600 md:w-3/12 md:h-96'>
                                 <div className='flex justify-center'>
                                     <img className='w-20 h-20 p-2 border border-black rounded-full' src="https://cdn.iconscout.com/icon/premium/png-256-thumb/travel-insurance-1409919-1193848.png" alt="" />
