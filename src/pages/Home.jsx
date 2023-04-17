@@ -8,6 +8,9 @@ import Contact from '../Contact'
 import url from '../components/url'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import auth from '../firebase.init'
+import add from '../assets/add.png'
+import activities from '../assets/activities.png'
+
 
 const Home = () => {
 
@@ -151,7 +154,7 @@ const Home = () => {
 
                             <div className='border border-blue-600 p-4 rounded-xl m-4 shadow-lg shadow-blue-600 md:w-3/12 md:h-96'>
                                 <div className='flex justify-center'>
-                                    <img className='w-20 h-20 p-2 border border-black rounded-full' src="https://w7.pngwing.com/pngs/756/905/png-transparent-nokras-riverine-hotel-spa-accommodation-motel-computer-icons-hotel-text-rectangle-room.png" alt="" />
+                                    <img className='w-20 h-20 p-2 border border-black rounded-full' src={add} alt="" />
                                 </div>
                                 <p className='text-center font-bold mb-2 text-lg'> Accommodations:</p>
                                 <p>We partner with some of the best hotels and resorts around the world to provide our customers with a wide range of accommodation options. From budget-friendly hostels to luxurious five-star hotels, we can help you find the perfect place to stay for your trip.</p>
@@ -161,7 +164,7 @@ const Home = () => {
                         <div className='md:flex justify-center'>
                             <div className='border border-blue-600 p-4 rounded-xl m-4 shadow-lg shadow-blue-600 md:w-3/12 md:h-96'>
                                 <div className='flex justify-center'>
-                                    <img className='w-20 h-20 p-2 border border-black rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKSMI_wWOjcK_hDlSLgwTjz7eg7UCUkhDl0xatc9E6XWuuX8CKitW8C1_nrhkt8ewNkyM&usqp=CAU" alt="" />
+                                    <img className='w-20 h-20 p-2 border border-black rounded-full' src={activities} alt="" />
                                 </div>
                                 <p className='text-center font-bold mb-2 text-lg'> Activities and excursions:</p>
                                 <p> Whether you're looking for a relaxing day at the beach or an adrenaline-fueled adventure, we can help you plan the perfect activities and excursions for your trip. From guided tours to cultural experiences, we have a wide range of options to choose from.</p>
